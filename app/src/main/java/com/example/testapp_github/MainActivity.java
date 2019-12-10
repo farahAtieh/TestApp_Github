@@ -14,16 +14,16 @@ public class MainActivity extends AppCompatActivity {
         double result = subTwoNumbers(80, 14);
     }
 
-    private int subTwoNumbers(int x, int y){
+    private double subTwoNumbers(double x, double y){
         return x - y;
     }
-    private int addTwoNumbers(int x, int y){
+    private double addTwoNumbers(double x, double y){
         return x + y;
     }
-    private int mulTwoNumbers(int x, int y){
+    private double mulTwoNumbers(double x, double y){
         return x * y;
     }
-    private int divTwoNumbers(int x, int y){
+    private double divTwoNumbers(double x, double y){
         return x / y;
     }
 }
