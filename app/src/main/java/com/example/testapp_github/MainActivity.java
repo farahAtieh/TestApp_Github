@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        double result = subTwoNumbers(80, 14);
     }
 
     private int subTwoNumbers(int x, int y){
