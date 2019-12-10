@@ -3,6 +3,7 @@ package com.example.testapp_github;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,18 +12,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        double result = subTwoNumbers(20, 4);
+
     }
 
-    private int subTwoNumbers(int x, int y){
+    private double subTwoNumbers(double x, double y){
         return x - y;
     }
-    private int addTwoNumbers(int x, int y){
+    private double addTwoNumbers(double x, double y){
         return x + y;
     }
-    private int mulTwoNumbers(int x, int y){
+    private double mulTwoNumbers(double x, double y){
         return x * y;
     }
-    private int divTwoNumbers(int x, int y){
+    private double divTwoNumbers(double x, double y){
         return x / y;
     }
 }
